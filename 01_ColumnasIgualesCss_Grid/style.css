@@ -1,0 +1,58 @@
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-family: cursive;
+    font-size: 1.6rem;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+.contenedor
+{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.entrada-blog 
+{}
+
+@media (min-width: 768px) { 
+
+.dos-columnas
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  2rem;
+
+    /*
+    Tambien se puede poner como: 
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    Tanto el que esta activo como estos son completamente lo mismo
+    */
+}
+
+
+
+}
