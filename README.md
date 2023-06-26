@@ -1,3 +1,6 @@
+Segundo commit intentando hacer un merge 
+
+
 Primer commit desde el main 
 Esto lo haré en el remote y quiero verlo en mi espacio local 
 
