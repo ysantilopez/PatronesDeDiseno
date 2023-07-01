@@ -38,22 +38,23 @@ h1
 {}
 
 @media (min-width: 768px) { 
-    .contenedor-grid
+    .contenedor-flex
     {
-        display: grid;
-        grid-template-areas: "izquierda contenido derecha";
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 2rem;
-        grid-auto-flow: column;
+        display: flex;
+        justify-content: space;
     }
 
     .contenido-principal
     {
-        grid-area: contenido;
+        flex-basis: calc(60% - 1rem);
+    }
+    .sidebar
+    {
+        flex-basis: calc(20% - 1rem);
     }
 
     .sidebar-1
     {
-        grid-area: izquierda;
+        order: -1;
     }
 }
