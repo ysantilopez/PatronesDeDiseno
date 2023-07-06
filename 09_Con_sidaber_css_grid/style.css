@@ -2,6 +2,8 @@ html
 {
     box-sizing: border-box;
     font-size: 62.5%;
+    background: rgb(17, 17, 27);
+    color: aliceblue;
 }
 
 *,
@@ -17,10 +19,6 @@ body
     font-size: 1.6rem;
 }
 
-img
-{
-    max-width: 100%;
-}
 
 h1
 {
@@ -34,27 +32,25 @@ h1
     margin: 0 auto;
 }
 
-.entrada-blog 
-{}
+@media (min-width: 480px) { 
+    
+    
+}
+
 
 @media (min-width: 768px) { 
-    .contenedor-flex
+    .con-sidebar
     {
-        display: flex;
-        justify-content: space;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 4rem;
+        grid-auto-flow: column;
     }
 
-    .contenido-principal
+    aside 
     {
-        flex-basis: calc(60% - 1rem);
-    }
-    .sidebar
-    {
-        flex-basis: calc(20% - 1rem);
+        grid-column: 2 / 3;
     }
 
-    .sidebar-1
-    {
-        order: -1;
-    }
+    
 }
