@@ -1,0 +1,45 @@
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background: rgb(17, 17, 27);
+    color: aliceblue;
+}
+
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-family: cursive;
+    font-size: 1.6rem;
+}
+
+
+h1
+{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor
+{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px) { 
+    
+
+}
+
+@media (min-width: 992px) { 
+   
+
+}
